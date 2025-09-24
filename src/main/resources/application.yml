@@ -1,1 +1,15 @@
-spring.application.name=clean-arch
+spring:
+  application:
+    name: CleanArch
+  
+  datasource:
+    url: jdbc:postgresql://localhost:5431/CleanArch
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+
+  flyway:
+    enabled: true

@@ -9,7 +9,7 @@ public record Evento(
     String nome,
     String descricao,
     String identificador,
-    String local,
+    String localEvento,
     String organizador,
     LocalDateTime dataInicio,
     LocalDateTime dataFim,
